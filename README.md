@@ -1,1 +1,1 @@
-# Newsletter-Sign-Up-With-Success-Message
+This is a responsive website created using only HTML, CSS and JavaScript.
