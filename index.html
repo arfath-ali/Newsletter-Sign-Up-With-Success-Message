@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Newsletter sign-up form</title>
+
+</head>
+
+<body>
+
+  <section class="subscription__page">
+    <header class="subscription__header">
+      <picture class="subscription__picture">
+        <source media="(min-width: 90rem)" srcset="images/illustration-sign-up-desktop.svg" />
+        <img src="images/illustration-sign-up-mobile.svg" alt="Sign-Up Illustration" class="subscription__image" />
+      </picture>
+    </header>
+
+    <main class="subscription__main">
+      <h1 class="subscription__heading">Stay updated!</h1>
+
+      <section class="subscription__content">
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li>
+            <img src="images/icon-list.svg" alt="Icon-List">
+            <p>Product discovery and building what matters</p>
+          </li>
+          <li>
+            <img src="images/icon-list.svg" alt="Icon-List">
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+          <li>
+            <img src="images/icon-list.svg" alt="Icon-List">
+            <p>And much more!</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="subscription__footer">
+      <label for="email" class="subscription__form">
+        <div class="subscription__form-labels">
+          <p class="subscription__form-inputLabel">Email address</p>
+        </div>
+        <input id=" email" type="email" name="email" placeholder=email@company.com class="subscription__email">
+      </label>
+
+      <button class="subscription__button">
+        Subscribe to monthly newsletter
+      </button>
+    </footer>
+  </section>
+
+  <section class="confirmation__page hidden">
+    <header>
+      <img src="images/icon-success.svg" alt="Icon-Success" class="confirmation__image" />
+    </header>
+
+    <main class="confirmation__main">
+      <h1 class="confirmation__heading">Thanks for subscribing!</h1>
+      <p class="confirmation__content">A confirmation email has been sent to <strong>ash@loremcompany.com.</strong>
+        Please open it and click the button inside to confirm your subscription.</p>
+    </main>
+
+    <footer class="confirmation__footer">
+      <button class="confirmation__button">
+        Dismiss message
+      </button>
+    </footer>
+  </section>
+  
+</body>
+
+</html>
